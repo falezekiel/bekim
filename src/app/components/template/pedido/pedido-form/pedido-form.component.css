@@ -3,11 +3,11 @@ mat-form-field {
 }
 
 mat-label {
-	color: #ff033c;
+	color:  #ea5922;
 }
 
 .mat-form-field-subscript-wrapper{
-	background-color: #ff033c;
+	background-color:  #ea5922;
 }
 
 .numero {
@@ -27,6 +27,25 @@ mat-label {
 .btn-dialog button {
   background-color: #ffff8c;
 }
+#carrito{
+  color: #ea5922;
+}
+#cancel{
+  color: #ea5922;
+}
+#pedir{
+  color: white;
+}
+#descartar{
+  color: white;
+}
+#btnpedir{
+  background-color: black;
+}
+#btndescartar{
+  background-color: black;
+}
+
 
 /*.dialog-icon {
   padding-bottom: 3px;

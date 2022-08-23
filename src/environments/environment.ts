@@ -6,12 +6,12 @@
 
 export const environment = {
   production: false,
-  firebase: {apiKey: "AIzaSyDEx001gVwEgTU_Jmd3oXJ-NxUPUi8_fFk",
-  authDomain: "yopon-lomos.firebaseapp.com",
-  projectId: "yopon-lomos",
-  storageBucket: "yopon-lomos.appspot.com",
-  messagingSenderId: "846096611993",
-  appId: "1:846096611993:web:f0ffce86764a26391fd608"
+  firebase: {apiKey: "AIzaSyDYp37k6ANyzDhcYkrFCjR4RVyHjW99OqI",
+  authDomain: "bekim-fa10e.firebaseapp.com",
+  projectId: "bekim-fa10e",
+  storageBucket: "bekim-fa10e.appspot.com",
+  messagingSenderId: "1064849374525",
+  appId: "1:1064849374525:web:dd43e9658e74b31f69d954"
 }
 };
  

@@ -6,39 +6,61 @@
   margin-right: 8px;
 }
 
-.mat-card-pizza, .mat-card-bebida{
+.mat-card-pizza{
   padding-top: 10px;
   margin: 10px;
   margin-top: 30px;
+  height: 26rem;
+}
+.mat-card-bebida{
+  padding-top: 10px;
+  margin: 10px;
+  margin-top: 30px;
+ height: 26rem;
+ 
+
 }
 
 .avatar {
   height: 50px;
   width: 50px;
   border: none;
+  color: #ea5922;
 }
+
 
 .subtitle {
   height: 40px;
 }
 
 .pizza-header-image, .bebida-header-image {
-  background-image: url('../../../../assets/card/cardapio.svg');
+  background-image: url('./../../../../assets/card/icons8-pastel-de-crema-de-coco-64.png');
   background-size: 85%;
   background-repeat: no-repeat;
 }
 
-.img-bebida, .img-pizza {
+.img-pizza {
   display: flex;
   justify-content: center;
   align-self: center;
   margin-top: 10px;
   border-radius: 5px;
   height: 60%;
+
 }
 
+.img-bebida{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 10px;
+  border-radius: 5px;
+  height: 60%;
+} 
+
 .img-bebida img {
-  width: 60%;
+  width: 95%;
+ 
 }
 
 .img-pizza img{
@@ -53,6 +75,7 @@
 .btn {
   display: flex;
   justify-content: center;
+  
 }
 
 .spinner {
@@ -62,6 +85,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#pedido{
+  background-color: black;
+  color: white;
+}
+#circle{
+  color: #ea5922;
+}
+#circle2{
+  color: #ea5922;
+}
+#btndesayuno{
+  background-color: black;
+  color: white;
 }
 
 /* 960 -> 2 colunas */

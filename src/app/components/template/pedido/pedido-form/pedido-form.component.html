@@ -25,9 +25,11 @@
         <mat-label>Teléfono</mat-label>
         <input matInput [(ngModel)]="numero" name="numero">
       </mat-form-field>
+    </p>
     
+    <p>
       <mat-form-field class="complemento">
-        <mat-label>Referencia</mat-label>
+        <mat-label>Referencia del domicilio</mat-label>
         <input matInput [(ngModel)]="complemento" name="complemento">
       </mat-form-field>
     </p>
@@ -43,13 +45,13 @@
 </mat-dialog-content>
   
 <mat-dialog-actions class="btn-dialog">
-  <button mat-raised-button [mat-dialog-close]="true" (click)="concluirPedido()">
-    <mat-icon class="color-pink dialog-icon">shopping_cart</mat-icon>
-    <span>Pedir</span>
+  <button mat-raised-button [mat-dialog-close]="true" (click)="concluirPedido()" id="btnpedir">
+    <mat-icon class="color-pink dialog-icon" id="carrito">shopping_cart</mat-icon>
+    <span id="pedir">Pedir</span>
   </button>
 
-  <button mat-raised-button mat-dialog-close>
-    <mat-icon class="color-pink dialog-icon">cancel</mat-icon>
-    <span class="span-icon">Descartar</span>
+  <button mat-raised-button mat-dialog-close id="btndescartar">
+    <mat-icon class="color-pink dialog-icon" id="cancel">cancel</mat-icon>
+    <span class="span-icon" id="descartar">Descartar</span>
   </button>
 </mat-dialog-actions>

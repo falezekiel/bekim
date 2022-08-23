@@ -1,14 +1,5 @@
 {
   "projects": {
-    "default": "yopon-lomos"
-  },
-  "targets": {
-    "yopon-lomos": {
-      "hosting": {
-        "pizzaria": [
-          "yopon-lomos"
-        ]
-      }
-    }
+    "default": "bekim-fa10e"
   }
 }

@@ -1,8 +1,8 @@
 <mat-tab-group mat-align-tabs="center" class="content" *ngIf="comidaArray.length > 0; else loading">
   <mat-tab>
     <ng-template mat-tab-label>
-      <mat-icon class="example-tab-icon">local_pizza</mat-icon>
-      Comida
+      <mat-icon class="example-tab-icon">cake</mat-icon>
+      Productos
     </ng-template>
     <div fxLayout="row wrap" fxLayoutAlign="start center" style="padding: 2%;">
       <ng-container *ngFor="let comida of comidaArray" style="margin: 0.5%;">
@@ -19,7 +19,7 @@
 
           <div class="img-pizza">
             <img mat-card-image src="{{ comida.img }}" 
-            alt="Pizza Sabor {{ comida.name }}">
+            alt="Producto {{ comida.name }}">
           </div>
 
           <p class="price">
@@ -27,8 +27,8 @@
           </p>
 
           <mat-card-actions class="btn">
-            <button mat-raised-button class="bg-yellow color-gray btn-add" (click)="addComidaPedido(comida.id)">
-              <mat-icon class="color-pink">add_circle</mat-icon>
+            <button mat-raised-button class="bg-yellow color-gray btn-add" (click)="addComidaPedido(comida.id)" id="pedido">
+              <mat-icon class="color-pink" id="circle">add_circle</mat-icon>
               Adicionar al Pedido
             </button>
           </mat-card-actions>
@@ -43,15 +43,15 @@
 
   <mat-tab>
     <ng-template mat-tab-label>
-      <mat-icon class="example-tab-icon">local_bar</mat-icon>
-      Bebidas
+      <mat-icon class="example-tab-icon">redeem</mat-icon>
+      Desayunos
     </ng-template>
     
 
     <div fxLayout="row wrap" fxLayoutAlign="start center" style="padding: 2%;">
       <ng-container *ngFor="let bebida of arrayBebida" style="margin: 0.5%;">
 
-        <mat-card class="mat-card-bebida mat-elevation-z4" fxFlex="0 1 calc(20% - 22px)"
+        <mat-card class="mat-card-bebida mat-elevation-z4" fxFlex="0 1 calc(33.3% - 22px)"
           fxFlex.lt-md="0 1 calc(33.3% - 22px)"
           fxFlex.lt-sm="100%">
 
@@ -63,7 +63,7 @@
 
           <div class="img-bebida">
             <img mat-card-image src="{{ bebida.img }}" 
-            alt="Bebida {{ bebida.name }}">
+            alt="Desayunos {{ bebida.name }}">
           </div>
           
           <p class="price">
@@ -71,13 +71,13 @@
           </p>
 
           <mat-card-actions class="btn">
-            <button mat-raised-button class="bg-yellow color-gray" (click)="addBebidaPedido(bebida.id)">
-              <mat-icon class="color-pink">add_circle</mat-icon>
+            <button mat-raised-button class="bg-yellow color-gray" (click)="addBebidaPedido(bebida.id)" id="btndesayuno">
+              <mat-icon class="color-pink" id="circle2">add_circle</mat-icon>
               Adicionar al Pedido
             </button>
-          </mat-card-actions>
+          </mat-card-actions> 
 
-        </mat-card>
+        </mat-card> 
 
       </ng-container>
     </div>

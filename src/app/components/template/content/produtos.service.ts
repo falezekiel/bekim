@@ -25,11 +25,11 @@ export class ProdutosService {
   }
 
   public getComida(): Observable<any>{
-   return this.db.collection('Comida').snapshotChanges()
+   return this.db.collection('pasteleria').snapshotChanges()
   }
 
   public getBebida(): Observable<any>{
-    return this.db.collection('Bebida').snapshotChanges()
+    return this.db.collection('desayunos').snapshotChanges()
    }
     
 }

@@ -35,6 +35,30 @@ tr.mat-footer-row {
 /*.dialog-icon {
   padding-bottom: 3px;
 }*/
+#circle{
+  color: #ea5922;
+}
+#delete{
+  color: #ea5922;
+}
+#carrito{
+  color: #ea5922;
+}
+#descartar{
+  color: #ea5922;
+}
+#txdescartar{
+  color: white;
+}
+#pedir{
+  color: white;
+}
+#btncarrito{
+  background-color: black;
+}
+#btndescartar{
+  background-color: black;
+}
 
 @media screen and (max-width: 600px) {
   .btn-dialog{
