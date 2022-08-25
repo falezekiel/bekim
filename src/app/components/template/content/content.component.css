@@ -60,11 +60,15 @@
 
 .img-bebida img {
   width: 95%;
+  object-fit: cover;
+  object-position: center;
  
 }
 
 .img-pizza img{
   width: 95%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .price {
